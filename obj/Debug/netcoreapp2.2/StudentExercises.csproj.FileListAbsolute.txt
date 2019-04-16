@@ -1,0 +1,11 @@
+C:\Users\justi\workspace\csharp\StudentExercises\obj\Debug\netcoreapp2.2\StudentExercises.csprojAssemblyReference.cache
+C:\Users\justi\workspace\csharp\StudentExercises\obj\Debug\netcoreapp2.2\StudentExercises.csproj.CoreCompileInputs.cache
+C:\Users\justi\workspace\csharp\StudentExercises\obj\Debug\netcoreapp2.2\StudentExercises.AssemblyInfoInputs.cache
+C:\Users\justi\workspace\csharp\StudentExercises\obj\Debug\netcoreapp2.2\StudentExercises.AssemblyInfo.cs
+C:\Users\justi\workspace\csharp\StudentExercises\bin\Debug\netcoreapp2.2\StudentExercises.deps.json
+C:\Users\justi\workspace\csharp\StudentExercises\bin\Debug\netcoreapp2.2\StudentExercises.runtimeconfig.json
+C:\Users\justi\workspace\csharp\StudentExercises\bin\Debug\netcoreapp2.2\StudentExercises.runtimeconfig.dev.json
+C:\Users\justi\workspace\csharp\StudentExercises\bin\Debug\netcoreapp2.2\StudentExercises.dll
+C:\Users\justi\workspace\csharp\StudentExercises\bin\Debug\netcoreapp2.2\StudentExercises.pdb
+C:\Users\justi\workspace\csharp\StudentExercises\obj\Debug\netcoreapp2.2\StudentExercises.dll
+C:\Users\justi\workspace\csharp\StudentExercises\obj\Debug\netcoreapp2.2\StudentExercises.pdb
