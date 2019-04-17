@@ -17,6 +17,9 @@ namespace StudentExercises
       SlackHandle = slack;
       Cohort = cohort;
     }
+    // public Student () {
+
+    // }
 
     public override string ToString()  {
       return $@"{FirstName} {LastName}";

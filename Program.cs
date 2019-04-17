@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using System.Collections.Generic;
 
 namespace StudentExercises
@@ -16,7 +17,6 @@ List<Cohort> AllCohorts = new List<Cohort>() {
     day34,
     day35
 };
-
 AllCohorts.ForEach(cohort => Console.WriteLine($"{cohort}"));
 
 Exercise Looping = new Exercise("Creating forEach and for loops", "JavaScript");
@@ -29,14 +29,29 @@ Style,
 ArrayMethods,
 Classes
 };
+IEnumerable<Exercise> jsexercises = from count in exercises
+where count.Language == "JavaScript"
+select count;
+foreach (Exercise jsexercise in jsexercises)
+{
+    Console.WriteLine($"Javascript exercises are {jsexercise.Name}");
+}
 
 Student Warner = new Student("Warner", "Carpenter", "Warner Carpenter", day33);
 Student Kirren = new Student("Kirren", "Covey", "Kirren Covey", day34);
 Student Mo = new Student("Mo", "Silvera", "Mo Silvera", day35);
-List<Student> students = new List<Student>();
-students.Add(Warner);
-students.Add(Kirren);
-students.Add(Mo);
+List<Student> students = new List<Student>() {
+Warner,
+Kirren,
+Mo
+};
+IEnumerable<Student> studentInCohort34 = from count in students
+where count.Cohort == day34
+select count;
+foreach (Student student in studentInCohort34)
+{
+    Console.WriteLine($"The students in {student.Cohort} are {student.FirstName} {student.LastName}");
+}
 
 Instructor Steve = new Instructor("Steve", "Brownlee", "Steve Brownlee", day33);
 Instructor Jisie = new Instructor("Jisie", "David", "Jisie David", day34);
@@ -46,6 +61,13 @@ List<Instructor> AllInstructors = new List<Instructor>(){
     Jisie,
     Joe
 };
+IEnumerable<Instructor> instructorInCohort35 = from count in AllInstructors
+where count.Cohort == day35
+select count;
+foreach (Instructor instructor in instructorInCohort35)
+{
+    Console.WriteLine($"The instructor for {instructor.Cohort} is {instructor.FirstName} {instructor.LastName}");
+}
 
 // Day33.Students.Add(Warner);
 // Day34.Students.Add(Kirren);
